@@ -10,4 +10,4 @@ table.insert(data.raw["movement-bonus-equipment"]["kr-superior-exoskeleton-equip
 
 --testing
 
-Remove_value(data.raw["equipment-grid"]["kr-spidertron-equipment-grid"].equipment_categories, {"kr-vehicle-motor"})
+remove_table_element_string(data.raw["equipment-grid"]["kr-spidertron-equipment-grid"].equipment_categories, {"kr-vehicle-motor"})

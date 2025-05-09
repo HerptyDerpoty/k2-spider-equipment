@@ -1,4 +1,4 @@
-require("__ylwlib__.utils")
+local utils = require("__ylwlib__.utils")
 --add catagory
 data:extend({{ type = "equipment-category", name = "kr-add-spider" }})
 --insert new category in spidertron grid
@@ -10,4 +10,4 @@ table.insert(data.raw["movement-bonus-equipment"]["kr-superior-exoskeleton-equip
 
 --testing
 
-remove_table_element_string(data.raw["equipment-grid"]["kr-spidertron-equipment-grid"].equipment_categories, {"kr-vehicle-motor"})
+utils.remove_table_element_string(data.raw["equipment-grid"]["kr-spidertron-equipment-grid"].equipment_categories, {"kr-vehicle-motor"})
